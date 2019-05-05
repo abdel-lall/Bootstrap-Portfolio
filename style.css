@@ -31,3 +31,14 @@ body{
 #imgtext{
     background-color:#4aaaa5;color:white;font-size:20px;height:40px;line-height:40px;
 }
+@media only screen and (max-width: 960px) {
+  body{ padding: 15px;
+}
+#footdiv{
+    width: 100%;
+    overflow: hidden;
+}
+#mainnav{
+    padding-right: 7px;
+}
+}
