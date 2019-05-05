@@ -7,19 +7,19 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="style.css">
     <title>Abdelmounaim Lallouache</title>
   </head>
-  <body style="background-image: url(images/cork-wallet.png)">
-   <div style="background-color: white ; border-bottom : 1px solid #777777;">
+  <body>
+   <div id="mainnav">
     <div class="container container-fluid p-0" >
       <div class="row">
         <div class ="col-lg">
           <nav class="navbar navbar-expand-md navbar-light p-0">
-            <div class="p-0" style="background-color: #4aaaa5 ">
-              <a class="navbar-brand p-3 text-center"  href="#" style="color: white">Abdelmounaim Lallouache</a>
+            <div class="p-0" id="brandname">
+              <a class="navbar-brand p-3 text-center" id="brandnamelink" href="#" >Abdelmounaim Lallouache</a>
             </div>
-            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#btnlist" style="background-color:#4aaaa5">
+            <button class="navbar-toggler navbar-dark" id="btn" type="button" data-toggle="collapse" data-target="#btnlist">
                 <span class="navbar-toggler-icon" ></span>
             </button>
             <div class="collapse navbar-collapse" id="btnlist">
@@ -34,13 +34,13 @@
       </div>
     </div>
   </div> 
-  <div class="container p-3 container-fluid overflow-auto " style="background-color: white; margin-top:20px">
+  <div class="container p-3 container-fluid overflow-auto " id="midsection" >
       <div class="row">
         <div class="col-lg">
-          <h2 style="color:#4aaaa5">About Me</h2>
+          <h2 id="midSecTitle">About Me</h2>
           <hr>
-          <img class="iimg-thumbnail float-left mr-3" alt="abdelmounaim lallouache" src="images/me.jpg" style="width : 200px; height:200px ">
-          <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit sunt placeat, vero neque sit corporis optio 
+          <img class="iimg-thumbnail float-left mr-3" id="pic" alt="abdelmounaim lallouache" src="images/me.jpg">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit sunt placeat, vero neque sit corporis optio 
             aut odit assumenda eius cumque ab inventore a similique? Quae animi beatae, soluta suscipit vero vel consequuntur
             eos debitis accusamus id perferendis deserunt alias repudiandae quos aliquid praesentium aperiam reprehenderit
             fuga aliquam dolore natus error iusto? Quas dicta ducimus itaque quae aperiam saepe tempore earum debitis,
@@ -58,10 +58,10 @@
         </div>
       </div>
   </div>
-  <div class="container-fluid sticky pt-4" style="background-color: #666666 ; position: absolute; bottom: 0px; height: 60px; border-top: 3px solid #4aaaa5;">
+  <div class="container-fluid sticky pt-4" id="footdiv" >
       <div class="row ">
         <div class="col">  
-          <footer class="text-center sticky-bottom" style="color: white">Copyright&copy;</footer>
+          <footer class="text-center sticky-bottom" id="foot" >Copyright&copy;</footer>
         </div>
       </div>
     </div>

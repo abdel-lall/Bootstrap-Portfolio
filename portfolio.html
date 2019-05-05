@@ -7,19 +7,19 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="style.css">
     <title>Abdelmounaim Lallouache</title>
   </head>
-  <body style="background-image: url(images/cork-wallet.png)">
-   <div style="background-color: white ; border-bottom : 1px solid #777777;">
+  <body>
+   <div id="mainnav">
     <div class="container container-fluid p-0" >
       <div class="row">
         <div class ="col-lg">
           <nav class="navbar navbar-expand-md navbar-light p-0">
-            <div class="p-0" style="background-color: #4aaaa5 ">
-              <a class="navbar-brand p-3 text-center"  href="#" style="color: white">Abdelmounaim Lallouache</a>
+            <div class="p-0" id="brandname">
+              <a class="navbar-brand p-3 text-center" id="brandnamelink" href="#" >Abdelmounaim Lallouache</a>
             </div>
-            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#btnlist" style="background-color:#4aaaa5">
+            <button class="navbar-toggler navbar-dark" id="btn" type="button" data-toggle="collapse" data-target="#btnlist">
                 <span class="navbar-toggler-icon" ></span>
             </button>
             <div class="collapse navbar-collapse" id="btnlist">
@@ -34,43 +34,43 @@
       </div>
     </div>
   </div> 
-  <div class="container p-3 container-fluid overflow-auto " style="background-color: white; margin-top:20px; margin-bottom: 80px">
+  <div class="container p-3 container-fluid overflow-auto " id="midsection" >
       <div class="row">
         <div class="col-lg">
-          <h2 style="color:#4aaaa5">Portfolio</h2>
+          <h2 id="midSecTitle">Portfolio</h2>
           <hr>
           <div class="container">
               <div class="row">
-                  <div class="col-lg-0" style="padding-right: 15px; padding-bottom: 15px; " >
-                    <div style="background-image: url(images/image1.jpg) ;width: 300px ;height: 250px;padding-top:195px ">
-                        <p class="text-center font-weight-light" style="background-color:#4aaaa5;color:white;font-size:20px;height:40px;line-height:40px">Hangman</p>
+                  <div class="col-lg-0" id="imgcol" >
+                    <div id="imgcontain">
+                        <p id="imgtext" class="text-center font-weight-light" >Hangman</p>
                     </div>
                   </div>
-                  <div class="col-lg-0" style="padding-right: 15px ; padding-bottom: 15px">
-                        <div style="background-image: url(images/image2.jpg) ;width: 300px ;height: 250px;padding-top:195px ">
-                            <p class="text-center font-weight-light" style="background-color:#4aaaa5;color:white;font-size:20px;height:40px;line-height:40px">RPG Game</p>
+                  <div class="col-lg-0" id="imgcol">
+                        <div id="imgcontain">
+                            <p class="text-center font-weight-light" id="imgtext">RPG Game</p>
                         </div>
                   </div>
               </div>
               <div class="row">
-                    <div class="col-lg-0" style="padding-right: 15px; padding-bottom: 15px; ">
-                        <div style="background-image: url(images/image3.jpg) ;width: 300px ;height: 250px;padding-top:195px ">
-                            <p class="text-center font-weight-light" style="background-color:#4aaaa5;color:white;font-size:20px;height:40px;line-height:40px">Trivia Game</p>
+                    <div class="col-lg-0" id="imgcol">
+                        <div id="imgcontain">
+                            <p class="text-center font-weight-light" id="imgtext">Trivia Game</p>
                         </div>
                     </div>
-                    <div class="col-lg-0" style="padding-right: 15px; padding-bottom: 15px; ">
-                        <div style="background-image: url(images/image4.jpg) ;width: 300px ;height: 250px;padding-top:195px ">
-                            <p class="text-center font-weight-light" style="background-color:#4aaaa5;color:white;font-size:20px;height:40px;line-height:40px">Rutgers Info Widget</p>
+                    <div class="col-lg-0" id="imgcol">
+                        <div id="imgcontain">
+                            <p class="text-center font-weight-light" id="imgtext">Rutgers Info Widget</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-0"  style="padding-right: 15px; padding-bottom: 15px; ">
-                            <div style="background-image: url(images/image5.jpg) ;width: 300px ;height: 250px;padding-top:195px ">
-                                <p class="text-center font-weight-light" style="background-color:#4aaaa5;color:white;font-size:20px;height:40px;line-height:40px">Rock Paper Scissors</p>
+                    <div class="col-lg-0" id="imgcol">
+                            <div id="imgcontain">
+                                <p class="text-center font-weight-light" id="imgtext">Rock Paper Scissors</p>
                             </div>
                     </div>
-                    <div class="col-lg-0" style="padding-right: 15px; padding-bottom: 15px; ">
+                    <div class="col-lg-0" id="imgcol">
                           <!-- img -->
                     </div>
                 </div>
@@ -78,17 +78,17 @@
         </div>
     </div>
 </div>
-<div class="container-fluid sticky pt-4" style="background-color: #666666 ; position: fixed; bottom: 0px; height: 60px; border-top: 3px solid #4aaaa5;">
-    <div class="row ">
-      <div class="col">  
-        <footer class="text-center sticky-bottom" style="color: white">Copyright&copy;</footer>
+<div class="container-fluid sticky pt-4" id="footdiv" >
+        <div class="row ">
+          <div class="col">  
+            <footer class="text-center sticky-bottom" id="foot" >Copyright&copy;</footer>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
-</html>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+  </html>

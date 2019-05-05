@@ -1,0 +1,33 @@
+body{
+    background-image: url(images/cork-wallet.png);
+}
+#mainnav{
+    background-color: white ; border-bottom : 1px solid #777777;
+}
+#brandname,#btn{
+    background-color: #4aaaa5 ;
+}
+#brandnamelink,#foot{
+    color: white;
+}
+#midsection{
+    background-color: white; margin-top:20px; margin-bottom: 80px;
+}
+#midSecTitle{
+    color:#4aaaa5;
+}
+#pic{
+    width : 200px; height:200px ;
+}
+#footdiv{
+    background-color: #666666 ; position: fixed; bottom: 0px; height: 60px; border-top: 3px solid #4aaaa5;
+}
+#imgcol{
+    padding-right: 15px; padding-bottom: 15px;
+}
+#imgcontain{
+    background-image: url(images/image1.jpg) ;width: 300px ;height: 250px;padding-top:195px; 
+}
+#imgtext{
+    background-color:#4aaaa5;color:white;font-size:20px;height:40px;line-height:40px;
+}
